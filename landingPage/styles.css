@@ -31,12 +31,18 @@ a {
     color: #F9FAF8;
 }
 
-.header {
+.header-footer {
     background-color: #1F2937;
-    padding: 10px 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
     display: flex;
     flex-direction: column;
     margin-top: 0;
+    width: 75%;
 }
 
 .logo {
@@ -66,12 +72,13 @@ a {
 }
 
 button.sign-up {
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882f6;
+    border: 1px solid #3882f6;
     color: white;
-    padding: 4px 16px;
+    padding: 8px 22px;
     border-radius: 8px;
     margin-top: 10px;
+    font-size: 18px;
 }
 
 .grey-box {
@@ -89,15 +96,15 @@ button.sign-up {
     color: #E5E7EB;
 }
 
-.random-container {
+.white-container {
     background-color: white;
     flex: 1;
     display: flex;
     justify-content: center;
+    padding: 100px 0;
 }
 
 .random-info {
-    padding: 50px 50px 100px 50px;
     width: 60%;
     text-align: center;
 }
@@ -162,3 +169,29 @@ button.sign-up {
     font-size: 24px;
 }
 
+.action-box {
+    display: flex;
+    border-radius: 10px;
+    background-color: #3882f6;
+    width: 75%;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-words {
+    color: #E5E7EB;
+}
+
+.action-box .sign-up {
+    border: 1px solid white;
+}
+
+.footer {
+    margin: 30px;
+}
